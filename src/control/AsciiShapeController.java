@@ -61,8 +61,8 @@ public class AsciiShapeController {
 	}
 
 	private void shapeTasks() {
-		shape.setHeight(userInput.askForNumber("Height of Square?"));
-		shape.setWidth(userInput.askForNumber("Width of Square?"));
+		shape.setHeight(userInput.askForNumber("Height of Shape?"));
+		shape.setWidth(userInput.askForNumber("Width of Shape?"));
 		shape.setLabel(userInput.askForString("Input a new label? Leave blank and hit [Enter] to skip"));
 		shape.draw();
 	}
